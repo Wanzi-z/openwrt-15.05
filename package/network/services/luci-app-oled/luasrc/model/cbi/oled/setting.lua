@@ -38,7 +38,9 @@ to.default=1440
 --informtion  options----
 o = s:taboption("info", Flag, "date", translate("Date"), translate('Format YYYY-MM-DD HH:MM:SS'))
 o.default=0
-o = s:taboption("info", Flag, "lanip", translate("IP"), translate("LAN IP address"))
+o = s:taboption("info", Flag, "lanip", translate("LAN IP"), translate("LAN IP address"))
+o.default=0
+o = s:taboption("info", Flag, "wanip", translate("WAN IP"), translate("WAN IP address"))
 o.default=0
 o = s:taboption("info", Flag, "cputemp", translate("CPU temperature"))
 o.default=0
